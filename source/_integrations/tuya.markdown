@@ -94,4 +94,4 @@ Add the Entity's support in the relevant file(s) as per the Standard Instruction
 As an example, you may need to add numeric display functionality for the standard instruction "cur_current" under the "dlq" category in sensor.py. Locate the "dlq" category in the SENSORS dictionary (add it if not already present), and implement support for the standard instruction "cur_current". [Code Linking](https://github.com/home-assistant/core/blob/9a38f0de0b83189ca18b68bd8ebd5ae7daf8e4d7/homeassistant/components/tuya/sensor.py#L822)
 
 **Pull Request**  
-The standard functionality is universal. If you expect the standard functionality you've extended to be merged into the project, you can consider the following on [how to contribute to home-assistant/core](https://github.com/home-assistant/core/blob/06f356a038b8498fcefa429d50f25b24cb7fc45b/CONTRIBUTING.md).
+The standard functionality is universal. If you expect the standard functionality you've extended to be merged into the project, you can consider the following on [how to contribute to home-assistant](https://developers.home-assistant.io/docs/review-process/).
